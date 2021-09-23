@@ -52,16 +52,16 @@ addFilter( 'native.block_editor_props', 'gutenberg-mobile', ( editorProps ) => {
 
 const REDUX_TRACKING = {
 	'core/block-editor': {
-		moveBlocksUp: 'test',
-		moveBlocksDown: 'test',
-		removeBlocks: 'test',
-		removeBlock: 'test',
-		moveBlockToPosition: 'test',
-		insertBlock: 'test',
-		insertBlocks: 'test',
-		replaceBlock: 'test',
-		replaceBlocks: 'test',
-		replaceInnerBlocks: 'test',
+		moveBlocksUp: 'moveBlocksUp',
+		moveBlocksDown: 'moveBlocksDown',
+		removeBlocks: 'removeBlocks',
+		removeBlock: 'removeBlock',
+		moveBlockToPosition: 'moveBlockToPosition',
+		insertBlock: 'insertBlock',
+		insertBlocks: 'insertBlocks',
+		replaceBlock: 'replaceBlock',
+		replaceBlocks: 'replaceBlocks',
+		replaceInnerBlocks: 'replaceInnerBlocks',
 	},
 };
 
